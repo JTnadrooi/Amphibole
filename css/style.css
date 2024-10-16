@@ -1,0 +1,21 @@
+:root {
+    --c1: #ffecd6;
+    --c2: #544e68;
+}
+
+* {
+    font-family: mainFont;
+    /* Font does not really support bold letters. */
+    font-weight: normal;
+    
+    color: var(--c1);
+    background-color: var(--c2);
+    /* Hopefully preventing the blurring of low-res fonts. (It didn't but keeping this for good measure) */
+    -webkit-font-smoothing: none;
+    font-size: 32px;
+    font-smooth: never;
+    text-rendering: initial !important;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}

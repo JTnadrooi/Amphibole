@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+    <title>
+        Amphibole Preview
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- The main script. -->
+    <script src="js/main.js"></script>
+
+    <!-- Probably faster as I'm not using UTF8-exclusive characters. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amphibole</title>
+    <style>
+        /* For reasons unknown, this does not work if I put this in the style.css file. */
+
+        @font-face {
+            font-family: mainFont;
+            src: url('smollerMono.ttf');
+        }
+    </style>
 </head>
-<body>
-    <canvas id="gameCanvas" width="2560" height="1920" style="border: 1px solid"></canvas>
+
+<body onload="load()">
+    Body.
+    <!-- <canvas>
+
+    </canvas> -->
 </body>
+
 </html>
