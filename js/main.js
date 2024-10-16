@@ -1,1 +1,1 @@
-console.log(" stont")
+console.log("")
