@@ -20,17 +20,7 @@
     image-rendering: crisp-edges;
 }
 
-#assets {
-    display: flex;
-}
-
-#assets * {
-    float: left;
-    justify-content: space-between;
-    margin-right: 20px;
-}
-
-.button {
+.button{
     height: auto;
     width: auto;
     background-color: #ffaa5e;
@@ -40,8 +30,8 @@
     cursor: pointer;
 }
 
-.button:active {
-    border-image: url(../media/button_pressed.png) 25% round;
+.button:active{
+    border-image: url(../media/button_activate_recolor.png) 25% round;
     background-color: #544e68;
     color: #8d697a;
 }
