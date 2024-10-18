@@ -7,7 +7,7 @@
     font-family: mainFont;
     /* Font does not really support bold letters. */
     font-weight: normal;
-    
+
     color: var(--c1);
     background-color: var(--c2);
     /* Hopefully preventing the blurring of low-res fonts. (It didn't but keeping this for good measure) */
@@ -20,18 +20,28 @@
     image-rendering: crisp-edges;
 }
 
-.button{
+#assets {
+    display: flex;
+}
+
+#assets * {
+    float: left;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.button {
     height: auto;
-    width: auto;    
-    background-color: #ffaa5e; 
+    width: auto;
+    background-color: #ffaa5e;
     border: 10px solid transparent;
-    padding: 2.5px;
+    padding: 0px;
     border-image: url(../media/button.png) 25% round;
     cursor: pointer;
 }
 
-.button:active{
-    border-image: url(../media/button_activate_recolor.png) 25% round;
+.button:active {
+    border-image: url(../media/button_pressed.png) 25% round;
     background-color: #544e68;
     color: #8d697a;
 }
