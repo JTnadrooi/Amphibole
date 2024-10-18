@@ -19,3 +19,19 @@
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
 }
+
+.button{
+    height: auto;
+    width: auto;    
+    background-color: #ffaa5e; 
+    border: 10px solid transparent;
+    padding: 2.5px;
+    border-image: url(../media/button.png) 25% round;
+    cursor: pointer;
+}
+
+.button:active{
+    border-image: url(../media/button_activate_recolor.png) 25% round;
+    background-color: #544e68;
+    color: #8d697a;
+}
