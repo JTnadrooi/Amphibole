@@ -20,6 +20,7 @@
     image-rendering: crisp-edges;
 }
 
+/*What the button looks like before and after you click it.*/
 .button{
     height: auto;
     width: auto;    
@@ -30,6 +31,7 @@
     cursor: pointer;
 }
 
+/*If you 'activate' the button it will change color.*/
 .button:active{
     border-image: url(../media/button_activate_recolor.png) 25% round;
     background-color: #544e68;
