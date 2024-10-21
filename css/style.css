@@ -20,18 +20,24 @@
     image-rendering: crisp-edges;
 }
 
-.button{
+.button {
     height: auto;
-    width: auto;
     background-color: #ffaa5e;
     border: 10px solid transparent;
     padding: 0px;
-    border-image: url(../media/button.png) 25% round;
+    border-image: url(../media/button_border.png) 25% round;
     cursor: pointer;
 }
 
-.button:active{
-    border-image: url(../media/button_activate_recolor.png) 25% round;
+.button:active {
+    border-image: url(../media/button_border_pressed.png) 25% round;
     background-color: #544e68;
     color: #8d697a;
+}
+
+.stat {
+    border: 10px solid transparent;
+    width: 200px;
+    padding: 0px;
+    border-image: url(../media/statBorder.png) 25% round;
 }
