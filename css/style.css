@@ -18,13 +18,15 @@
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
+    line-height: 0.5;
+    padding: 0px;
+    margin: 0px;
 }
 
 .button {
     height: auto;
     background-color: #ffaa5e;
     border: 10px solid transparent;
-    padding: 0px;
     border-image: url(../media/button_border.png) 25% round;
     cursor: pointer;
 }
@@ -40,4 +42,9 @@
     width: 200px;
     padding: 0px;
     border-image: url(../media/statBorder.png) 25% round;
+    background-image: url(../media/states/stats8.png);
+    background-repeat: no-repeat;
+    /* background-attachment: local; */
+    background-position: 136px;
+    background-size: 35%;
 }
