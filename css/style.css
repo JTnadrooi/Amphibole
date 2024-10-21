@@ -42,9 +42,11 @@
     width: 200px;
     padding: 0px;
     border-image: url(../media/statBorder.png) 25% round;
-    background-image: url(../media/states/stats8.png);
+    background-image: url(../media/states/stats4.png);
     background-repeat: no-repeat;
-    /* background-attachment: local; */
     background-position: 136px;
     background-size: 35%;
+}
+#statContainer > * {
+    margin-bottom: -4px;
 }
