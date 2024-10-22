@@ -54,7 +54,7 @@ Later it will be changed with the type of weapon you have on you.*/
 }
 
 /*Selects each sub element of the "statcontainer" element and 
-applies a direct negative margin to it. This is done so the elemtns overlap a bit, 
+applies a direct negative margin to it. This is done so the elements overlap a bit, 
 preventing a way way to thick border.*/
 #statContainer > * {
     margin-bottom: -4px;
