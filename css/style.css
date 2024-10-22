@@ -26,7 +26,8 @@
 /*changes the button's border, and color. 
 If you hover over it with your cursor it becomes a pointer.*/
 .button {
-    height: auto;
+    height: 2em;
+    width: 100%;
     background-color: #ffaa5e;
     border: 10px solid transparent;
     border-image: url(../media/button_border.png) 25% round;
