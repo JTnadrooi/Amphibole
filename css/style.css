@@ -59,3 +59,18 @@ preventing a way way to thick border.*/
 #statContainer > * {
     margin-bottom: -4px;
 }
+
+#statContainer{
+    position: absolute;
+    bottom: 6px;
+}
+
+#assets{
+    border: 1px solid black;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    height: 810px;
+    position: absolute;
+    left: 250px;
+}
