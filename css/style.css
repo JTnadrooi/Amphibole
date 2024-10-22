@@ -23,6 +23,8 @@
     margin: 0px;
 }
 
+/*changes the button's border, and color. 
+If you hover over it with your cursor it becomes a pointer.*/
 .button {
     height: auto;
     background-color: #ffaa5e;
@@ -31,22 +33,28 @@
     cursor: pointer;
 }
 
+/*If you click on the button it changes the border and the background.*/
 .button:active {
     border-image: url(../media/button_border_pressed.png) 25% round;
     background-color: #544e68;
     color: #8d697a;
 }
 
+/*Change the background image to change the stat value. 
+Later it will be changed with the type of weapon you have on you.*/
 .stat {
     border: 10px solid transparent;
     width: 200px;
     padding: 0px;
     border-image: url(../media/statBorder.png) 25% round;
-    background-image: url(../media/states/stats4.png);
+    background-image: url(../media/states/stats3.png);
     background-repeat: no-repeat;
     background-position: 136px;
     background-size: 35%;
 }
+
+/*Each item in the container. 
+Negative margin so that it overlaps.*/
 #statContainer > * {
     margin-bottom: -4px;
 }
