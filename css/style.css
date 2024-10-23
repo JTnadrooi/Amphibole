@@ -1,4 +1,6 @@
 
+
+
 :root {
     --c1: #ffecd6;
     --c2: #544e68;
@@ -79,13 +81,3 @@ canvas {
     float: right;
 }
 
-
-
-
-
-
-
-
-
-
-function load() { // No support for for 
