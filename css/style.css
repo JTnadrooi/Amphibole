@@ -1,3 +1,4 @@
+
 :root {
     --c1: #ffecd6;
     --c2: #544e68;
@@ -7,7 +8,7 @@
     font-family: mainFont;
     /* Font does not really support bold letters. */
     font-weight: normal;
-    
+
     color: var(--c1);
     background-color: var(--c2);
     /* Hopefully preventing the blurring of low-res fonts. (It didn't but keeping this for good measure) */
@@ -18,4 +19,73 @@
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
+    line-height: 0.5;
+    padding: 0px;
+    margin: 0px;
 }
+
+/*changes the button's border, and color. 
+If you hover over it with your cursor it becomes a pointer.*/
+.button {
+    height: 2em;
+    width: 100%;
+    background-color: #ffaa5e;
+    border: 10px solid transparent;
+    border-image: url(../media/button_border.png) 25% round;
+    cursor: pointer;
+}
+
+/*If you click on the button it changes the border and the background.*/
+.button:active {
+    border-image: url(../media/button_border_pressed.png) 25% round;
+    background-color: #544e68;
+    color: #8d697a;
+}
+
+/*Change the background image to change the stat value. 
+Later it will be changed with the type of weapon you have on you.*/
+.stat {
+    border: 10px solid transparent;
+    width: 200px;
+    padding: 0px;
+    border-image: url(../media/statBorder.png) 25% round;
+    background-image: url(../media/states/stats3.png);
+    background-repeat: no-repeat;
+    background-position: 136px;
+    background-size: 35%;
+}
+
+/*Selects each sub element of the "statcontainer" element and 
+applies a direct negative margin to it. This is done so the elements overlap a bit, 
+preventing a way way to thick border.*/
+#statContainer > * {
+    margin-bottom: -4px;
+}
+
+#statContainer{
+    position: fixed;
+    bottom: 6px; 
+}
+
+#userInterface{
+    border-right: 4px solid var(--c1);
+    height: 100vh; /* 100% of the viewheight. */
+    width: 216px;
+}
+canvas {
+    background: url(../media/dungeonStarterMap.png);
+    background-size: cover;
+    border: 2px solid black;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+function load() { // No support for for 

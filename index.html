@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -24,10 +25,24 @@
 </head>
 
 <body onload="load()">
-    Body.
-    <!-- <canvas>
-
-    </canvas> -->
+    <div>
+    <canvas id="myCanvas" width="1280" height="960" style="border: 1px solid #000;"></div>
+    <div id="userInterface">
+        <!--When you click the button the game starts. Function is not working yet.-->
+        <button type="button" class="button">play!</button>
+        <div id="statContainer">
+            <div class="stat" id="synergy">synergy</div>
+            <div class="stat" id="damage">damage</div>
+            <div class="stat" id="velocity">velocity</div>
+            <div class="stat" id="firerate">firerate</div>
+            <div class="stat" id="reload">reload</div>
+            <div class="stat" id="adrenaline">adrena..</div>
+            <div class="stat" id="magazine">magazine</div>
+            <div class="stat" id="knockback">knockb..</div>
+        </div>
+        <!-- <div id="border"></div> -->
+    </div>
+   <script src="js/canvas.js"></script>
 </body>
 
 </html>
