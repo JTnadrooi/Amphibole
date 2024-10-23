@@ -74,10 +74,14 @@ preventing a way way to thick border.*/
     height: 100vh; /* 100% of the viewheight. */
     width: 216px;
 }
+
 canvas {
-    background-image: url("/media/dungeonStarterMap.png");
+    background-image: url("../media/dungeonStarterMap.png");
     background-size: cover;
     border: 2px solid black;
     float: right;
+
+    /* background-image: url("https://tenor.com/view/napoleon-there%27s-nothing-we-can-do-napoleon-pyritesian-gif-17490332095914688011.gif"); */
 }
+
 
