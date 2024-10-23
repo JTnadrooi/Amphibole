@@ -75,7 +75,7 @@ preventing a way way to thick border.*/
     width: 216px;
 }
 canvas {
-    background: url(../media/dungeonStarterMap.png);
+    background-image: url("/media/dungeonStarterMap.png");
     background-size: cover;
     border: 2px solid black;
     float: right;
